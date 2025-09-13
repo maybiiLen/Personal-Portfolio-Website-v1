@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "build": "next build && next export",
-    "start": "next start"
+  "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build && next export",
+    "start": "next start",
+    "start:static": "npx serve out -l $PORT"
   },
   "dependencies": {
     "next": "10.2.3",
