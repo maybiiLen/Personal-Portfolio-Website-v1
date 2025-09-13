@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Aspiring Full-Stack Developer at the University of Houston | Passionate About Creating Scalable Web Applications Using the MERN Stack (MongoDB, Express, React, Node.js) | Skilled in API Integration, Database Management, and Problem-Solving with Data Structures
       </SectionText>
-      <Button onClick={() => window.location = 'https://www.linkedin.com/in/yourprofile/'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://www.instagram.com/lmao.henry/'}>Learn More</Button>
     </LeftSection>
   </Section>
 );

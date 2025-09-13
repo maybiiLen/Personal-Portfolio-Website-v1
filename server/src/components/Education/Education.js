@@ -1,12 +1,12 @@
 import React from 'react'
 import { Section, SectionTitle, SectionText, SectionSubText } from '../../styles/GlobalComponents'
 
-const Eduction = () => {
+const Education = () => {
   return (
-    <Section id="eduction">
+    <Section id="Education">
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
         <img src="/images/uhlogo.png" alt="University of Houston logo" style={{ width: 48, height: 48, objectFit: 'contain' }} />
-        <SectionTitle style={{ fontSize: '32px', lineHeight: '40px', padding: '8px 0', margin: 0 }}>Eduction</SectionTitle>
+        <SectionTitle style={{ fontSize: '32px', lineHeight: '40px', padding: '8px 0', margin: 0 }}>Education</SectionTitle>
       </div>
       <div style={{ maxWidth: '720px' }}>
         <SectionText>
@@ -18,4 +18,4 @@ const Eduction = () => {
   )
 }
 
-export default Eduction
+export default Education
