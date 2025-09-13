@@ -6,9 +6,31 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:your-email@example.com">henrypham6719@gmail.com</LinkItem>
+          <LinkItem href="tel:+1234567890">+1 (832) 279-7385</LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+        </CompanyContainer>
+      <SocialIcons href="https://github.com/maybiiLen">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/henry-pham-561ba0262/">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.instagram.com/lmao.henry/">
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
+      </SocialIconsContainer>
+      <Slogan>
+        <p>© 2025 Henry Pham. All rights reserved.</p>
+      </Slogan>
+    </FooterWrapper>
   );
 };
 
