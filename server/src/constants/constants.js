@@ -25,7 +25,7 @@ export const projects = [
       "Full-stack leaderboard & team stats tracker for Jungle Monkey FC. Admin CRUD for matches/players, computed KPIs (goals, assists, cards), and, and responsive UI. Express API + MongoDB aggregations on the backend, React on the frontend.",
     image: '/images/3.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://github.com/yourusername/jmfc-leaderboard',
+    source: 'https://github.com/maybiiLen/MERN-JMFC-Website',
     visit: 'https://mern-jmfc-website.onrender.com/',
     id: 2,
   },
